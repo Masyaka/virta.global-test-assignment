@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "lib": ["es2019"],
+    "target": "ES2015",
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "checkJs": false,
+    "allowJs": false,
+    "declaration": true,
+    "strictPropertyInitialization": false,
+    "declarationMap": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "ts-node": {
+    // these options are overrides used only by ts-node
+    // same as the --compilerOptions flag and the TS_NODE_COMPILER_OPTIONS environment variable
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "files": ["./backend/index.ts"]
+}
