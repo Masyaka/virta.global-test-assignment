@@ -1,3 +1,10 @@
+# NOTE
+
+This code was sent for evaluation without this note section and `task.md`
+They didn't call me to interview. They said overcomplicated. And no feedback was given. Sad.
+
+---
+
 ## Prerequisites
 NodeJS and NPM is required.
 
